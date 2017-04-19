@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title> Gender Neutralizer Tool </title>
+		<meta charset="UTF-8">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href='//fonts.googleapis.com/css?family=Raleway:400,300,600,200' rel='stylesheet' type='text/css'>
+		{% load staticfiles %}
+		<link rel="stylesheet" type="text/css" href="{% static 'search/css/normalize.css' %}">
+		<link rel="stylesheet" type="text/css" href="{% static 'search/css/skeleton.css' %}">
+		<link rel="stylesheet" type="text/css" href="{% static 'search/css/search.css' %}">
+	</head>
+	
+	<body>
+<a style="text-align:right;" href="{% url 'upload' %}"><h6>Gender-Neutralize a file from your PC</h6></a>
+				<h3>GENDER NEUTRALIZER</h3>	
+				{% block body_block %}
+					<div>
+							<form class="chatform" id="user_form" method="post" action="/">
+								<!-- Display the search form elements here -->
+								<div><input type="text" size="100" name="query" value="{{ query }}" id="query" />
+								<button id='submit' type="submit" />Search</button>
+								<input type="hidden" name="page_number" id="page_number" value="{{ page_number }}">
+								</div>
+							</form>
+					
+							{% if result_list %}
+							
+							<!-- Display search results in an ordered list -->
+							<div>
+								<ol>
+								{% for result in result_list %}
+										<strong><a href="{% url 'url_link' result.link %}">{{ result.headline }}</a></strong>
+										<p> {{ result.snippet }}</p>
+										<br/>
+								{% endfor %}
+								</ol>
+							</div>
+							{% endif %}
+								<div>
+									{% if page_number >= '1' %}
+										<span onClick="previous()" class="font-size:18px; float: left"> < <a href="#" id="previous">Previous</a> </span>
+									{% endif %}
+									{% if result_list %}
+										<span onClick="next()" class="font-size:18px; float: right"><a href="#" id="next">Next</a> ></span>
+									{% endif %}
+								</div>
+					</div>
+				{% endblock %}
+
+
+			<script>
+			function next() {
+			   page_number = parseInt($('#page_number').val()) + 1;
+			   query = '{{ query }}';
+			   console.log("pageNumber = " + page_number + ", query = " + query);
+			   $('#query').val(query);
+			   $('#page_number').val(page_number);
+			   $('#submit').click();
+			}
+			function previous() {
+			   page_number = parseInt($('#page_number').val()) - 1;
+			   query = '{{ query }}';
+			   console.log("pageNumber = " + page_number + ", query = " + query);
+			   $('#query').val(query);
+			   $('#page_number').val(page_number);
+			   $('#submit').click();
+			}
+		</script>
+    </body>
+</html>

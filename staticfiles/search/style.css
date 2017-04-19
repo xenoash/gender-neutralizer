@@ -1,0 +1,70 @@
+h1 a {
+    color: #090b96;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 35px;
+}
+
+h2 a {
+    color: #090b96;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 20px;
+}
+h3 a {
+    color: #090b96;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 40px;
+}
+h4 a {
+    color: #090b96;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 20px;
+}
+
+h5 a {
+    color: #090b96;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 50px;
+	padding-left: 400px;
+	
+}
+
+
+body {
+    background: white url("images/background.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.container1
+{
+position: absolute;
+left: 10%;
+}
+
+.container {
+    width: 60%;
+    padding-left:100px;
+    padding-right:100px;
+    padding-bottom:200px;
+    margin:auto;
+}
+
+.search-page{
+    text-align:center;
+    margin: auto;
+}
+.search-field {
+    border: 2px solid #090b96;
+    border-radius: 50px;
+    width:35%;
+    margin-top:20px;
+	margin-left:440px;
+}
+.search-submit {
+    padding: 10px 10px;
+    margin-bottom:5px;
+    text-transform: uppercase;
+}
+

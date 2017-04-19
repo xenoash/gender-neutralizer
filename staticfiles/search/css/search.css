@@ -1,0 +1,22 @@
+body {
+    padding: 4em;
+	float: center:
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+p.deck {
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+
+p.deck a {
+    text-decoration: none;
+}
+
+.quiet {
+    font-size: 90%;
+    color: #999;
+}

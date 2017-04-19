@@ -1,0 +1,39 @@
+{%block content%}
+<h1>Gender Neutral Database</h1>
+<div style="width:" 100%>
+<div style="padding: 5px 3px; float:right; width: 48%;">
+<h4>Equivalent</h4>
+</div>
+<div style="padding: 5px 3px; float:right; width: 48%;">
+<h4>Word</h4>
+</div>
+<div class="response">
+{%for entry in gender_to_neutral %}
+<div class="entry">
+<div class="header">
+<div style="padding: 5px 3px; float:right; width: 48%;" class="equivalent">
+{{entry.equivalent|linebreaks}}
+</div>
+<div style="padding: 5px 3px; float:right; width: 48%;" class="word">
+{{entry.word|linebreaks}}
+</div>
+</div>
+{%endfor%}
+</div>
+</div>
+</div>
+<div class="dictionary">
+{{entries}}
+{%for entry in entries %}
+<div class="entry">
+<div class="header">
+<div class="word">
+{{entry.word|linebreaks}}
+</div>
+<div class="equivalent">
+{{entry.equivalent|linebreaks}}
+</div>
+</div>
+{%endfor%}
+</div>
+{%endblock%}

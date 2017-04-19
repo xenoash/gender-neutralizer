@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title> Gender Neutralizer </title>
+		<meta charset="UTF-8">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href='//fonts.googleapis.com/css?family=Raleway:400,300,600,200' rel='stylesheet' type='text/css'>
+		{% load staticfiles %}
+		<link rel="stylesheet" type="text/css" href="{% static 'search/css/normalize.css' %}">
+		<link rel="stylesheet" type="text/css" href="{% static 'search/css/skeleton.css' %}">
+		<link rel="stylesheet" type="text/css" href="{% static 'search/css/search.css' %}">
+	</head>
+	
+	<body>
+
+
+				<h3>GENDER NEUTRALIZER</h3>
+				<h2>{{ headline }}</h2> 
+<div style="width: 100%;">
+
+	<div style="padding: 5px 10px; float:left; width: 48%;">
+		<h5>Input</h5>
+		<p>{{ original_text | linebreaks }}</p>
+	</div>
+	<div style="padding: 5px 10px; float:right; width: 48%;">
+		<h5>Output</h5>
+		<p>{{ neutral_text | linebreaks }}</p>
+	</div>
+
+
+</div>
+
+<div style="clear:both;"></div>
+<div style="width: 100%;">
+{% if gs_words %}
+	<div style="padding: 5px 3px; float:left; width: 48%;">
+		<h5>Gender-specific words</h5>
+		<p>{{ gs_words | linebreaks }}</p>
+	</div>
+  {% endif %}
+{% if gn_words %}
+	<div style="padding: 5px 3px; float:right; width: 48%;">
+		<h5>Gender-neutral words</h5>
+		<p>{{ gn_words | linebreaks }}</p>
+	</div>
+  {% endif %}
+</div>
+
+</body>
+</html>

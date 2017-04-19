@@ -1,0 +1,270 @@
+actress,actor
+airline stewardess,flight attendant
+alderman,council member
+alumna,graduates
+alumnus,graduates
+anchorman,anchor
+anchorwoman,anchor
+assemblyman,assemblyperson
+bagboy,assistant
+blind man,blind person
+bondsman,guarantor
+boss man,boss
+boss lady,supervisor
+brakeman,brake operator  
+brethren,laity
+brew master,brew director
+bridesmaid,bride's attendant
+brotherhood,fellowship
+brotherly,kind
+brotherly love,charity
+bus boy,table attendant
+bus girl,table attendant
+businessman,businessperson
+businesswoman,businessperson
+cabin boy,cabin attendant
+cameraman,camera operator
+camerawoman,camera operator
+career woman,career professional
+cattlemen,cattle owners
+cavemen,cave dwellers
+chairman,chair person
+Chairman, chair person
+chairwoman,chair
+chambermaid,housekeeper
+choir boy,choir member
+choir girl,choir member
+chorus girl,chorus singer
+chorus boy,chorus singer
+city fathers,city leaders
+clergy men,clergy
+clergy women,clergy
+coed,student
+comedienne,entertainer
+common man,commoner
+conductress,conductor
+confidence man,crook
+congressman,legislator
+contact man,contact
+copy boy,copy clerk
+copy girl,copy clerk
+councilman,council member
+countryman,compatriot
+cowboy, cowhand
+cowgirl,cowhand
+craftsman,artisan
+crewman,crew member
+dairyman,dairy farmer
+deliveryman,courier
+doorman,doorkeeper
+drum majorette, drum major
+Dutchman,Dutch person
+elder statesman,senior statesperson
+Englishman,Briton
+enlisted man,recruit
+fall guy,scapegoat
+fatherhood,parenthood
+fraternal twins,non-identical twins
+fatherland,homeland
+favorite son,favorite candidate
+fighting man,fighter
+fireman,firefighter
+flagman,flagger
+floor man,floorwalker
+flyboy,aviator
+forefathers,ancestors
+foreman,supervisor
+forewoman,supervisor
+forelady,supervisor
+founding father,founder
+Frenchmen,French people
+freshman,first year students
+frog man,diver
+front man,representative
+funnyman,comedian
+gamesmanship,game playing
+gateman,gate keeper
+gentlemen's agreement,unwritten agreement
+girl Friday,aide
+goddess,god
+governess,child caretaker
+grandfather clause,pre-existing condition
+guardsman,guard
+gunman,shooter
+handyman,maintenance person
+headman,leader
+headmaster,principal
+heiress,heir
+helmsman,coxswain
+henchman,partner in crime
+heroine,hero
+horseman,rider
+horsewoman,equestrian
+hostess,host
+housewife,homemaker
+idea man,creator
+infantryman,infantry soldier
+inside man,insider
+insurance man,insurance agent
+Irishmen,Irish people
+jack-of-all-trades,handyperson
+jazz man,jazz musician
+John Q. Public,the public
+johnny-come-lately,newcomer
+johnny-on-the-spot,right-on-time
+journeyman,experienced tradesperson
+juryman,jury person
+key man,key person
+king's ransom,valuable
+king-size,very large
+layman,layperson
+learned man,learned person
+legman,messenger
+letterman,award winning athlete
+lineman,line technician
+longshoreman,stevedore
+lookout man,lookout
+lumberjack,forester
+maid,house cleaner
+maid-of-honor,honored attendant
+maiden,first
+maiden name,birth name
+mailman,letter carrier
+maintenance man,janitor
+majorette,drum major
+male nurse,nurse
+man about town,mover and shaker
+man among men,outstanding person
+man of action,human dynamo
+man of distinction,person of distinction
+man of letters,scholar
+man of the year,newsmaker of the year  
+man on the street,ordinary citizen
+to man,operate
+manned,occupied
+man's best friend,dog
+man's work,hard work
+man-sized,large
+man-to-man,face-to-face
+manageress,manager
+man-eater,flesh eater
+manhandle,rough up
+manhole,maintenance hole
+man-hours,work hours
+mankind,humanity
+manlike,humanlike
+manmade,artificial
+manpower,workforce
+man of the house,father
+marked man,targeted person
+marksman,sharpshooter
+masculine,male
+masseuse,massage therapist
+master key,passkey
+master plan,main plan
+masterful,skillful
+masterpiece,great work of art
+master's degree,graduate degree
+master,expert
+matron of honor,honored attendant
+mechanical man,robot
+medicine man,spirit healer
+men working,people working
+meter maid,parking enforcement officer
+middleman,intermediary
+midshipman,cadet
+Miss,Ms. 
+modern man,modern people
+mother country,homeland
+Mother Earth,earth
+mother lode,main vein
+Mother Nature,nature
+mother tongue,native language
+motherhood,parenthood
+Mrs.,Ms. 
+murderess,murderer
+newsboy,newscaster
+newsman,journalist
+newspaperman,paper carrier
+night watchman,night seurity guard
+no-man's-land,neutral zone
+nobleman,noble person
+Norseman,Norse person
+number-one-man,head
+number-two-man,second in command
+oarsman,rower
+odd-man-out,person not included
+office boy,clerk
+oilman,oil field worker
+old wives' tale,superstition
+organization man,team player
+outdoorsman,outdoors person
+paperboy,paper carrier
+patrolman,police officer
+penmanship,handwriting
+pitchman,promoter
+playboy,pleasure seeker
+playgirl,carouser 
+postman,letter carrier
+policeman,police officer
+sailor, soldier, airman
+repair person, maintenance person
+captain, commander
+postmistress,postal worker
+prehistoric man,prehistoric person
+pressman,press operator
+priestess,priest
+prodigal son,returning child
+publicity man,publicist
+radioman,radio broadcaster
+ranchman,rancher
+Renaissance man,Renaissance person
+repairman,repairer
+rifleman,sharpshooter
+right-hand man,main assistant
+salesman,sales person
+saleslady,sales person
+Scotsman,Scot
+sculptress,sculptor
+seaman,sailor
+seamstress,tailor
+seductress,seducer
+shipmaster,captain
+showman,performer
+showmanship,stage presence
+signalman,signal operator
+sister ship,partner ship
+snowman,snow person
+song-and-dance-man,singer and dancer
+songstress,singer
+sorceress,sorcerer
+spaceman,astronaut
+spokesman,spokesperson
+spokeswoman,spokesperson
+sportsmanlike,sporty
+starlet,star young actor
+statesman,senior politician
+stewardess,flight attendant
+straw man,test theory
+switchman,switch operator
+taskmaster,supervisor
+temptress,enticer
+to a man,to a person
+toastmaster,toast maker
+toastmistress,toast maker
+trash man,trash collector
+tribesman,tribe member
+triggerman,assassin
+Uncle Sam,United States
+usherette,usher
+waitress,server
+watchman,security guard
+weak sister,weak
+weatherman,meteorologist
+Welshman,Welsh person
+workman,worker
+workmanlike,efficient
+workmen's compensation,workers' compensation
+yes-man,supporter
+young man,youth
+female physician,physician

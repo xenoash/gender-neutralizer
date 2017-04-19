@@ -1,0 +1,72 @@
+17/04/08 22:09:39 WARN streaming.StreamJob: -file option is deprecated, please use generic option -files instead.
+packageJobJar: [mapper.py, reducer.py, /C:/Users/Ashraf/AppData/Local/Temp/hadoop-unjar3537033771462238407/] [] C:\Users\Ashraf\AppData\Local\Temp\streamjob5138510451037079769.jar tmpDir=null
+17/04/08 22:09:40 INFO client.RMProxy: Connecting to ResourceManager at /127.0.0.1:8032
+17/04/08 22:09:40 INFO client.RMProxy: Connecting to ResourceManager at /127.0.0.1:8032
+17/04/08 22:09:41 INFO mapred.FileInputFormat: Total input paths to process : 1
+17/04/08 22:09:42 INFO mapreduce.JobSubmitter: number of splits:2
+17/04/08 22:09:42 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1491641310672_0026
+17/04/08 22:09:42 INFO impl.YarnClientImpl: Submitted application application_1491641310672_0026
+17/04/08 22:09:42 INFO mapreduce.Job: The url to track the job: http://Xashon:8088/proxy/application_1491641310672_0026/
+17/04/08 22:09:42 INFO mapreduce.Job: Running job: job_1491641310672_0026
+17/04/08 22:09:49 INFO mapreduce.Job: Job job_1491641310672_0026 running in uber mode : false
+17/04/08 22:09:49 INFO mapreduce.Job:  map 0% reduce 0%
+17/04/08 22:09:55 INFO mapreduce.Job:  map 100% reduce 0%
+17/04/08 22:10:00 INFO mapreduce.Job:  map 100% reduce 100%
+17/04/08 22:10:02 INFO mapreduce.Job: Job job_1491641310672_0026 completed successfully
+17/04/08 22:10:02 INFO mapreduce.Job: Counters: 49
+        File System Counters
+                FILE: Number of bytes read=514665
+                FILE: Number of bytes written=1402943
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=2213668
+                HDFS: Number of bytes written=17308
+                HDFS: Number of read operations=9
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=2
+        Job Counters
+                Launched map tasks=2
+                Launched reduce tasks=1
+                Data-local map tasks=2
+                Total time spent by all maps in occupied slots (ms)=13426
+                Total time spent by all reduces in occupied slots (ms)=6556
+                Total time spent by all map tasks (ms)=6713
+                Total time spent by all reduce tasks (ms)=3278
+                Total vcore-milliseconds taken by all map tasks=6713
+                Total vcore-milliseconds taken by all reduce tasks=3278
+                Total megabyte-milliseconds taken by all map tasks=3437056
+                Total megabyte-milliseconds taken by all reduce tasks=1678336
+        Map-Reduce Framework
+                Map input records=14720
+                Map output records=14720
+                Map output bytes=485219
+                Map output materialized bytes=514671
+                Input split bytes=184
+                Combine input records=0
+                Combine output records=0
+                Reduce input groups=218
+                Reduce shuffle bytes=514671
+                Reduce input records=14720
+                Reduce output records=218
+                Spilled Records=29440
+                Shuffled Maps =2
+                Failed Shuffles=0
+                Merged Map outputs=2
+                GC time elapsed (ms)=114
+                CPU time spent (ms)=2980
+                Physical memory (bytes) snapshot=820342784
+                Virtual memory (bytes) snapshot=1124929536
+                Total committed heap usage (bytes)=699924480
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters
+                Bytes Read=2213484
+        File Output Format Counters
+                Bytes Written=17308
+17/04/08 22:10:02 INFO streaming.StreamJob: Output directory: /assign2/nout1
