@@ -1,8 +1,0 @@
-hadoop jar D:\hadoop-2.6.2\share\hadoop\tools\lib\hadoop-streaming-2.6.2.jar -file mapper.py -mapper "D:\Programs\Python\python mapper.py" -file reducer.py -reducer "D:\Programs\Python\python.exe reducer.py" -input /input1.txt -output /output.txt
-# mapper only
-hadoop jar D:\hadoop-2.6.2\share\hadoop\tools\lib\hadoop-streaming-2.6.2.jar -file mapper.py -mapper "D:\Programs\Python\python mapper.py" -input /input1.txt -output /output.txt
-# with combiner
-hadoop jar D:\hadoop-2.6.2\share\hadoop\tools\lib\hadoop-streaming-2.6.2.jar -file mapper.py -mapper "D:\Programs\Python\python mapper.py" -file reducer.py -reducer "D:\Programs\Python\python.exe reducer.py" -file combiner.py -combiner "D:\Programs\Python\python combiner.py" -input /input1.txt -output /output.txt
-
-# running historyserver
-mapred --config D:\hadoop-2.6.2\etc\hadoop historyserver
