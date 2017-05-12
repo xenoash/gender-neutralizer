@@ -6,7 +6,8 @@ The tool is mashed up with NYT search API to look for NYT articles to convert th
 The tool also provides a RESTful API functionality by taking user input from the url to generate JSON data that includes the user input, generated gender-neutral output, gender-specific words, and their respective equivalent gender-neutral words.
 
 Inserting user input can be done using the following URL patterns after the domain name, to receive html or JSON-formatted data respectively: 
-/view/<userInput>
-/view/<userInput>/json
+ /view/<userInput>
+
+ /view/<userInput>/json
 
 Additionally, the service allows to upload text documents to convert their text into gender-neutral form.
