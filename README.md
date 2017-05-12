@@ -15,7 +15,7 @@ Inserting user input can be done using the following URL patterns after the doma
 
 Additionally, the service allows to upload text documents to convert their text into gender-neutral form.
 
-###**Implementation:**
+### **Implementation:**
 The main app contains the following functions which implements the main functionality of the web service.
 
 extract function: This function basically extracts the text of any NYT article chosen by the user or the file content in the case of an uploaded file . To extract the text from NYT articles, we used a python package called Beautiful soup. First, we collect the html content of the page of the article by requesting the URL of the page.
